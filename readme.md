@@ -1,9 +1,15 @@
-# s3fs mount from Docker container
-
-https://github.com/maxcotec/s3fs-mount/blob/main/s3fs%20docker%20mount.png![Uploading image.png…]()
+![image](https://github.com/mz0in/aws-s3-docker-mount/assets/5844695/83a2a3fb-e48f-46fd-8765-3d8da39b44ce)# s3fs mount from Docker container
 
 
-This repository contains a singleton Dockerfile that is capable of mounting s3 bucket 
+[https://github.com/maxcotec/s3fs-mount/blob/main/s3fs%20docker%20mount.png](https://github.com/maxcotec/s3fs-mount/blob/main/s3fs%20docker%20mount.png)
+
+
+
+
+This repository contains a singleton Dockerfile that is capable of mounti
+
+![image](https://github.com/mz0in/aws-s3-docker-mount/assets/5844695/d68b55f5-0e84-47b9-a7cd-a8e62017fead)
+ng s3 bucket 
 as file system using s3fs fuse. 
 
 Watch video tutorial on [YouTube](https://www.youtube.com/watch?v=de4uZ2yCGlg);
