@@ -6,9 +6,6 @@
 
 
 
-This repository contains a singleton Dockerfile that is capable of mounti
-
-![image](https://github.com/mz0in/aws-s3-docker-mount/assets/5844695/d68b55f5-0e84-47b9-a7cd-a8e62017fead)
 ng s3 bucket 
 as file system using s3fs fuse. 
 
