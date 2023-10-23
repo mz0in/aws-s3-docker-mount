@@ -1,6 +1,6 @@
 # s3fs mount from Docker container
 
-<img alt="alt text" height="300" src="s3fs docker mount.png" width="600"/>
+
 
 This repository contains a singleton Dockerfile that is capable of mounting s3 bucket 
 as file system using s3fs fuse. 
