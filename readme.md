@@ -1,5 +1,6 @@
 # s3fs mount from Docker container
 
+https://github.com/maxcotec/s3fs-mount/blob/main/s3fs%20docker%20mount.png![Uploading image.png…]()
 
 
 This repository contains a singleton Dockerfile that is capable of mounting s3 bucket 
