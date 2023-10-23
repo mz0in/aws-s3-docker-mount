@@ -4,7 +4,7 @@
 ################
 
 FROM python:3.8-slim as envs
-LABEL maintainer="Maxcotec <maxcotec.com/learning>"
+LABEL maintainer="zain"
 
 # Set arguments to be used throughout the image
 ARG OPERATOR_HOME="/home/op"
@@ -16,13 +16,16 @@ ARG OPERATOR_UID="50000"
 # Attach Labels to the image to help identify the image in the future
 LABEL com.maxcotec.docker=true
 LABEL com.maxcotec.docker.distro="debian"
-LABEL com.maxcotec.docker.module="s3fs-test"
-LABEL com.maxcotec.docker.component="maxcotec-s3fs-test"
+LABEL com.maxcotec.docker.module="s3fs"
+LABEL com.maxcotec.docker.component="zain-s3fs"
 LABEL com.maxcotec.docker.uid="${OPERATOR_UID}"
 
 # Set arguments for access s3 bucket to mount using s3fs
 ARG BUCKET_NAME
-ARG S3_ENDPOINT="https://s3.eu-west-1.amazonaws.com"
+# Amazone s3 
+## ARG S3_ENDPOINT="https://s3.eu-west-1.amazonaws.com"
+# backblaze s3 api 
+ARG S3_ENDPOINT="https://s3.us-east-005.backblazeb2.com"
 
 # Add environment variables based on arguments
 ENV OPERATOR_HOME ${OPERATOR_HOME}
